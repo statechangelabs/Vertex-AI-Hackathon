@@ -1,0 +1,15 @@
+{
+  "contentsDeltaUri": "gs://vertexai-hackathon-embeddings/batch_root",
+  "config": {
+    "dimensions": 768,
+    "approximateNeighborsCount": 150,
+    "distanceMeasureType": "COSINE_DISTANCE",
+    "shardSize": "SHARD_SIZE_SMALL",
+    "algorithm_config": {
+      "treeAhConfig": {
+        "leafNodeEmbeddingCount": 5000,
+        "leafNodesToSearchPercent": 3
+      }
+    }
+  }
+}
